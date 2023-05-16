@@ -19,10 +19,10 @@ Here is the list of the steps involved in the notebook to achieve the goal.
     In this step, we will load the data and make a data dictionary to understand the meaning of each column in the dataset.  
     
 **2. Data Preparation**  
-    We need to ensure that our data is clean and is in a suitable form so our logic is provided with usable data. No matter how good our logic is, if the input data is incorrect, the results will not be reliable! Just like George Fuechsel, an early IBM programmer and instructor, said, "Garbage In, Garbage Out!".  
-    
+    At this point, we need to ensure that our data is clean and is in a suitable form so our logic is provided with usable data. We are going to handle some potential issues, such as unnecessary samples, duplicate rows (if any), unrelevant / unusable features (feature selection), incorrect data types, bad-formatted values, categorical variables, and incomplete yet useful features. In addition, we will also add new features in this step.
+
 **3. Exploratory Data Analysis (EDA)**    
-    We will carry out some univariate and multivariate analyses in this step to get a better understanding about the dataset, to know the characteristics of the dataset, to help make predictions and assumptions about the data, to find the patterns of the dataset, to find any relationships in a dataset, etc.  
+    We will carry out some univariate and multivariate analyses to get a better understanding about the dataset, to know the characteristics of the dataset, to help make predictions and assumptions about the data, to find the patterns of the dataset, to find any relationships in a dataset, etc.  
     
 **4. Modeling**  
     Here, we will create, compare, and evaluate our machine learning models. Tree-based models (Decision Tree and Random Forest) will be created. In addition, precision and balanced accuracy score will be used to measure the models' performance. 
