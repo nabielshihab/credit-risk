@@ -11,7 +11,7 @@ pyvenv.cfg
 
 
 ### hidden dataset directory ###
-hidden_dataset/
+dataset/
 
 
 # C extensions
