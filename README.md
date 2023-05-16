@@ -9,7 +9,7 @@ Because it could tell lenders and other creditors whether a loan will end up bei
 As the goal requires us to make some predictions, we need to approach it using **predictive analytics**. In other words, we are going to deal with a machine learning model, or models(?) However, it does not mean that we will not take other approaches into account. For example, we can still perform some descriptive analytics to help us gain knowledge about the data.
 
 # The Data
-Download: bit.ly/loandataset 
+Download: https://bit.ly/loandataset   
 We have a CSV-formatted dataset. It comprises the funded loans data only since they did not provide us the rejected loans dataset. It has **466,285 samples (rows)** and **75 features (columns)**, has multiple types of data, and has many columns consist of null values. There are columns related to identification numbers, some are related to the borrower / co-borrowers' personal information, some are loan-specific, some columns related to the borrower / co-borrowers' credit / public records, and other columns.
 
 # The Steps Involved
