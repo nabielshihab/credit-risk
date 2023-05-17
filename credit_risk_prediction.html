@@ -15121,7 +15121,7 @@ memory usage: 266.8+ MB
 <ul>
 <li>unnecessary samples</li>
 <li>duplicate rows (if any)</li>
-<li>unrelevant / unusable features (feature selection)</li>
+<li>irrelevant / unusable features (feature selection)</li>
 <li>incorrect data types</li>
 <li>bad-formatted values</li>
 <li>categorical variables</li>
@@ -15652,8 +15652,8 @@ But still, we need to worry whether there are duplicate member IDs since one per
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Unrelevant Features</strong></p>
-<p>We classify features as unrelevant when we know that they have nothing to do with the target feature. Thus, they will not have any contribution when it comes to making predictions. That is why we should exclude them. Here is the list of those features:</p>
+<p><strong>Irrelevant Features</strong></p>
+<p>We classify features as irrelevant when we know that they have nothing to do with the target feature. Thus, they will not have any contribution when it comes to making predictions. That is why we should exclude them. Here is the list of those features:</p>
 <ul>
 <li><code>Unnamed: 0</code></li>
 <li><code>id</code> </li>
@@ -16115,7 +16115,7 @@ Now, it's time to drop the unnecessary features.</p>
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># list of columns to drop</span>
 <span class="n">cols_to_drop</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="c1"># unrelevant</span>
+    <span class="c1"># irrelevant</span>
     <span class="s1">&#39;Unnamed: 0&#39;</span><span class="p">,</span> 
     <span class="s1">&#39;id&#39;</span><span class="p">,</span>
     <span class="s1">&#39;member_id&#39;</span><span class="p">,</span>
