@@ -19,7 +19,7 @@ Here is the list of the steps involved in the notebook to achieve the goal.
     In this step, we will load the data and make a data dictionary to understand the meaning of each column in the dataset.  
     
 **2. Data Preparation**  
-    At this point, we need to ensure that our data is clean and is in a suitable form so our logic is provided with usable data. We are going to handle some potential issues, such as unnecessary samples, duplicate rows (if any), unrelevant / unusable features (feature selection), incorrect data types, bad-formatted values, categorical variables, and incomplete yet useful features. In addition, we will also add new features in this step.
+    At this point, we need to ensure that our data is clean and is in a suitable form so our logic is provided with usable data. We are going to handle some potential issues, such as unnecessary samples, duplicate rows (if any), irrelevant / unusable features (feature selection), incorrect data types, bad-formatted values, categorical variables, and incomplete yet useful features. In addition, we will also add new features in this step.
 
 **3. Exploratory Data Analysis (EDA)**    
     We will carry out some univariate and multivariate analyses to get a better understanding about the dataset, to know the characteristics of the dataset, to help make predictions and assumptions about the data, to find the patterns of the dataset, to find any relationships in a dataset, etc.  
